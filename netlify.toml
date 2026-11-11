@@ -1,0 +1,8 @@
+# TEAM FIGHTERS é um site estático: não há etapa de build.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
